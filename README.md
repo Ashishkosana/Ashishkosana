@@ -28,15 +28,16 @@ Gateway, Cognito, CDK).
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**ai-clone**](https://github.com/Ashish1916/ai-clone) | Chat-first personal site — talk to an AI clone that answers from a grounded knowledge base | AWS serverless (CDK, Lambda, DynamoDB, API GW, CloudFront), pluggable LLM |
-| [**fastapi-saas-api**](https://github.com/Ashish1916/fastapi-saas-api) | Multi-tenant SaaS API with per-user isolation + Stripe subscription tiers | FastAPI · JWT · Stripe · Docker · CI |
-| [**aws-serverless-cicd**](https://github.com/Ashish1916/aws-serverless-cicd) | Serverless app with an automated CI/CD pipeline | AWS · CDK · CI/CD |
-| [**envlint**](https://github.com/Ashish1916/envlint) | Zero-dependency CLI that lints `.env` files against a declared schema | Python · CI-friendly |
+| [**career-copilot**](https://github.com/Ashishkosana/career-copilot) | Personal job-search agent — one daily briefing (Gmail triage + scored job matches) with a Flutter iPhone app on an AWS serverless backend | Flutter · AWS (Lambda · DynamoDB · API GW · Cognito · CDK) · Python · Claude |
+| [**ai-clone**](https://github.com/Ashishkosana/ai-clone) | Chat-first personal site — talk to an AI clone that answers from a grounded knowledge base | AWS serverless (CDK, Lambda, DynamoDB, API GW, CloudFront), pluggable LLM |
+| [**fastapi-saas-api**](https://github.com/Ashishkosana/fastapi-saas-api) | Multi-tenant SaaS API with per-user isolation + Stripe subscription tiers | FastAPI · JWT · Stripe · Docker · CI |
+| [**aws-serverless-cicd**](https://github.com/Ashishkosana/aws-serverless-cicd) | Serverless app with an automated CI/CD pipeline | AWS · CDK · CI/CD |
+| [**envlint**](https://github.com/Ashishkosana/envlint) | Zero-dependency CLI that lints `.env` files against a declared schema | Python · CI-friendly |
 
 ---
 
 ### 🔗 Connect
 
 - 🌐 [ashishkosana.com](https://www.ashishkosana.com/)
-- 💼 [LinkedIn](https://www.linkedin.com/in/ashish-kosana/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/ashishkosana/)
 - 📫 ashishkosana@gmail.com
