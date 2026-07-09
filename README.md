@@ -1,58 +1,42 @@
 # Hi, I'm Ashish 👋
 
+**Software Engineer building LLM-powered products — end to end.** I ship production
+full-stack features (Flutter + AWS serverless) and build **AI agents** that do real
+work: read, reason, and draft — with a human keeping the final click.
 
-**Software Engineer — full-stack.** I build products end-to-end: **Flutter** mobile
-front ends on **AWS serverless** backends. Recent CS grad (UMass Lowell, 2025),
-happiest shipping clean, maintainable features from UI to Lambda.
+🔭 **Currently:** Software Engineer at **Crewtron** (field-service SaaS) — shipping
+Flutter + AWS (Lambda · DynamoDB · API Gateway · Cognito · CDK) features to live
+users, and building internal AI agents.
 
-
-🔭 **Currently:** Software Engineer at **Crewtron** (field-service SaaS) — shipped
-geofenced clock-in/out with a live crew map, an Outlook-style calendar with a UTC
-pipeline, invoices/quotes, and more, on Flutter + AWS (Lambda, DynamoDB, API
-Gateway, Cognito, CDK).
-
-
-🌱 **Exploring:** Go, deeper distributed-systems patterns, and LLM tooling on the side.
-
-
-💬 **Open to** Software Engineer / backend / full-stack roles.
-
+💬 **Open to** Software Engineer / AI Engineer roles · authorized to work in the U.S. (F-1 OPT).
 
 ---
-
 
 ### 🛠️ Tech
 
-
-**Languages:** Python · Dart · SQL · (learning Go)
-**Mobile:** Flutter · Riverpod
-**Backend & Cloud:** AWS (Lambda · DynamoDB · API Gateway · Cognito · S3 · CloudFront · SES) · CDK · FastAPI · Stripe · JWT · Docker
-**Practices:** Clean architecture · IaC · CI/PR review · git rebase workflow
-
+**Languages:** Python · Dart · SQL
+**AI / LLM:** Claude & OpenAI APIs · agentic pipelines · prompt engineering · evals
+**Backend & Cloud:** AWS (Lambda · DynamoDB · API Gateway · Cognito · S3 · CDK · EventBridge) · FastAPI · Stripe · Docker
+**Mobile / Frontend:** Flutter · Riverpod
+**Practices:** Ports & adapters · tests + CI · IaC · security review (OWASP Top 10)
 
 ---
 
-
-### 📌 Selected projects
-
+### 📌 Featured
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**career-copilot**](https://github.com/Ashishkosana/career-copilot) | Personal job-search agent — one daily briefing (Gmail triage + scored job matches) with a Flutter iPhone app on an AWS serverless backend | Flutter · AWS (Lambda · DynamoDB · API GW · Cognito · CDK) · Python · Claude |
-| [**ai-clone**](https://github.com/Ashishkosana/ai-clone) | Chat-first personal site — talk to an AI clone that answers from a grounded knowledge base | AWS serverless (CDK, Lambda, DynamoDB, API GW, CloudFront), pluggable LLM |
+| [**review-lens**](https://github.com/Ashishkosana/review-lens) | Multi-lens, **self-verifying** LLM code-review agent — reviews a diff across correctness/security/perf/tests, then *adversarially verifies* each finding before commenting. CLI + GitHub Action. | Python · Claude · pytest · CI |
+| [**career-copilot**](https://github.com/Ashishkosana/career-copilot) | Personal job-search **agent** — one daily briefing (Gmail triage + scored matches + LLM-drafted replies) on AWS serverless | Python · AWS · Claude · Flutter |
+| [**ai-clone**](https://github.com/Ashishkosana/ai-clone) | Chat-first personal site — talk to an AI clone grounded in a knowledge base | AWS serverless · CDK · pluggable LLM |
 | [**fastapi-saas-api**](https://github.com/Ashishkosana/fastapi-saas-api) | Multi-tenant SaaS API with per-user isolation + Stripe subscription tiers | FastAPI · JWT · Stripe · Docker · CI |
-| [**aws-serverless-cicd**](https://github.com/Ashishkosana/aws-serverless-cicd) | Serverless app with an automated CI/CD pipeline | AWS · CDK · CI/CD |
 | [**envlint**](https://github.com/Ashishkosana/envlint) | Zero-dependency CLI that lints `.env` files against a declared schema | Python · CI-friendly |
-
 
 ---
 
-
 ### 🔗 Connect
-
 
 - 🌐 [ashishkosana.com](https://www.ashishkosana.com/)
 - 📄 [Resume](https://www.ashishkosana.com/resume.pdf)
 - 💼 [LinkedIn](https://www.linkedin.com/in/ashishkosana/)
 - 📫 ashishkosana@gmail.com
-
