@@ -3,7 +3,7 @@
 **Software Engineer — Backend & Full-Stack.** I build products end to end — REST APIs, auth, payments, and cloud infrastructure, backed by tests and CI — and I use LLMs as an engineering tool, not as a specialty.
 
 - 🔭 **Building:** [review-lens](https://github.com/Ashishkosana/review-lens) — a self-verifying LLM code reviewer · [career-copilot](https://github.com/Ashishkosana/career-copilot) — a live serverless job-search agent on AWS
-- 🌱 **Learning:** Next.js / TypeScript, system design, and DSA (in public → [dsa](https://github.com/Ashishkosana/dsa))
+- 🌱 **Exploring:** Next.js / TypeScript and system design
 - 🌐 **Portfolio:** [ashishkosana.com](https://ashishkosana.com)  ·  📫 ashishkosana@gmail.com
 - 🎓 B.S. Computer Science, UMass Lowell (Dec 2025) · open to new-grad SWE / Backend / Full-Stack roles
 
