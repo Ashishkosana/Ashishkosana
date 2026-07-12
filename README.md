@@ -1,41 +1,52 @@
-# Hi, I'm Ashish 👋
+# Hi, I'm Ashish Kosana 👋
 
-**Software Engineer — full-stack.** I build products end-to-end (Flutter + AWS
-serverless) and use LLMs to make them do more: agents, RAG, and developer tooling.
+**Software Engineer — Backend & Full-Stack.** I build products end to end — REST APIs, auth, payments, and cloud infrastructure, backed by tests and CI — and I use LLMs as an engineering tool, not as a specialty.
 
-🔭 **Currently:** Software Engineer at **Crewtron** (field-service SaaS) — shipping
-Flutter + AWS (Lambda · DynamoDB · API Gateway · Cognito · CDK) features to live users.
-
-💬 **Open to** Software Engineer roles · authorized to work in the U.S. (F-1 OPT).
+- 🔭 **Building:** [review-lens](https://github.com/Ashishkosana/review-lens) — a self-verifying LLM code reviewer · [career-copilot](https://github.com/Ashishkosana/career-copilot) — a live serverless job-search agent on AWS
+- 🌱 **Learning:** Next.js / TypeScript, system design, and DSA (in public → [dsa](https://github.com/Ashishkosana/dsa))
+- 🌐 **Portfolio:** [ashishkosana.com](https://ashishkosana.com)  ·  📫 ashishkosana@gmail.com
+- 🎓 B.S. Computer Science, UMass Lowell (Dec 2025) · open to new-grad SWE / Backend / Full-Stack roles
 
 ---
 
 ### 🛠️ Tech
 
-**Languages:** Python · Dart · SQL
-**LLMs:** OpenAI & Anthropic APIs · agentic pipelines · RAG · prompt engineering · evals
-**Backend & Cloud:** AWS (Lambda · DynamoDB · API Gateway · Cognito · S3 · CDK · EventBridge) · FastAPI · Stripe · Docker
-**Mobile / Frontend:** Flutter · Riverpod
-**Practices:** Ports & adapters · tests + CI · IaC · security review (OWASP Top 10)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+**Backend:** REST API design · JWT / OAuth2 · hexagonal (ports & adapters) · SQLModel / SQLAlchemy · Stripe
+**Cloud:** AWS Lambda · DynamoDB · API Gateway · Cognito · CDK (IaC) · EventBridge · Secrets Manager
+**Quality:** pytest · mypy --strict · ruff · GitHub Actions · security review (OWASP Top 10)
 
 ---
 
-### 📌 Featured
+### 🚀 Featured Projects
 
-| Project | What it is | Stack |
-|---|---|---|
-| [**review-lens**](https://github.com/Ashishkosana/review-lens) | Multi-lens, **self-verifying** LLM code-review agent — reviews a diff across correctness/security/perf/tests, then *adversarially verifies* each finding. CLI + GitHub Action. | Python · LLM · pytest · CI |
-| [**career-copilot**](https://github.com/Ashishkosana/career-copilot) | Personal job-search **agent** — one daily briefing (Gmail triage + scored matches + LLM-drafted replies) on AWS serverless | Python · AWS · LLM · Flutter |
-| [**data-analyst-agent**](https://github.com/Ashishkosana/data-analyst-agent) | Agentic SQL analyst — an LLM explores a database with read-only SQL tool-calls to answer questions | Python · LLM · SQL |
-| [**askdocs-rag**](https://github.com/Ashishkosana/askdocs-rag) | Production RAG document Q&A with a retrieval + answer-quality evaluation harness | Python · RAG · ChromaDB · FastAPI |
-| [**ai-clone**](https://github.com/Ashishkosana/ai-clone) | Chat-first personal site — an AI clone grounded in a knowledge base | AWS serverless · CDK · LLM |
-| [**fastapi-saas-api**](https://github.com/Ashishkosana/fastapi-saas-api) | Multi-tenant SaaS API with per-user isolation + Stripe subscription tiers | FastAPI · JWT · Stripe · Docker · CI |
+| Project | What it is |
+|---|---|
+| **[review-lens](https://github.com/Ashishkosana/review-lens)** | Automated code reviewer — runs an LLM across multiple lenses, then self-verifies each finding before flagging it (precision over recall). Python · CLI + GitHub Action · 80+ tests · eval harness. |
+| **[career-copilot](https://github.com/Ashishkosana/career-copilot)** | Live serverless job-search agent on AWS — CDK-defined (Lambda · DynamoDB · API Gateway · Cognito). Triages Gmail, scores jobs, drafts replies with an LLM. |
+| **[snip](https://github.com/Ashishkosana/snip)** | URL-shortener API from first principles — FastAPI + SQLModel, base62 codec, per-IP token-bucket rate limiting, Dockerized. |
+| **[fastapi-saas-api](https://github.com/Ashishkosana/fastapi-saas-api)** | Multi-tenant SaaS API — JWT auth, per-user isolation, Stripe subscription webhooks, Postgres, Docker. |
 
 ---
 
-### 🔗 Connect
+### 📊 GitHub
 
-- 🌐 [ashishkosana.com](https://www.ashishkosana.com/)
-- 📄 [Resume](https://www.ashishkosana.com/resume.pdf)
-- 💼 [LinkedIn](https://www.linkedin.com/in/ashishkosana/)
-- 📫 ashishkosana@gmail.com
+![Ashish's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ashishkosana&show_icons=true&hide_border=true&count_private=true)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ashishkosana&layout=compact&hide_border=true&langs_count=8)
+
+---
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ashishkosana)
+[![Website](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=googlechrome&logoColor=white)](https://ashishkosana.com)
+[![Resume](https://img.shields.io/badge/Resume-4285F4?style=flat-square&logo=readdotcv&logoColor=white)](https://ashishkosana.com/resume.pdf)
