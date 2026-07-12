@@ -30,13 +30,6 @@
 
 ---
 
-### 📊 GitHub
-
-![Ashish's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ashishkosana&show_icons=true&hide_border=true&count_private=true)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ashishkosana&layout=compact&hide_border=true&langs_count=8)
-
----
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ashishkosana)
 [![Website](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=googlechrome&logoColor=white)](https://ashishkosana.com)
 [![Resume](https://img.shields.io/badge/Resume-4285F4?style=flat-square&logo=readdotcv&logoColor=white)](https://ashishkosana.com/resume.pdf)
