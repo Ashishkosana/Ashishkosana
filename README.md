@@ -2,8 +2,8 @@
 
 **Software Engineer — Backend & Full-Stack.** I build products end to end — REST APIs, auth, payments, and cloud infrastructure, backed by tests and CI — and I use LLMs as an engineering tool, not as a specialty.
 
-- 🔭 **Building:** [review-lens](https://github.com/Ashishkosana/review-lens) — a self-verifying LLM code reviewer · [career-copilot](https://github.com/Ashishkosana/career-copilot) — a live serverless job-search agent on AWS
-- 🌱 **Exploring:** Next.js / TypeScript and system design
+- 🔭 **Building:** [**Rythu**](https://main.d3jtg3gae71asa.amplifyapp.com) — a **live full-stack web app** (Next.js/TypeScript + Python/AWS serverless) · [review-lens](https://github.com/Ashishkosana/review-lens) — a self-verifying LLM code reviewer · [career-copilot](https://github.com/Ashishkosana/career-copilot) — a serverless job-search agent on AWS
+- 🌱 **Now shipping with:** Next.js · TypeScript · React (see Rythu) + system design
 - 🌐 **Portfolio:** [ashishkosana.com](https://ashishkosana.com)  ·  📫 ashishkosana@gmail.com
 - 🎓 B.S. Computer Science, UMass Lowell (Dec 2025) · open to new-grad SWE / Backend / Full-Stack roles
 
@@ -11,7 +11,7 @@
 
 ### 🛠️ Tech
 
-[![My Skills](https://skillicons.dev/icons?i=python,fastapi,aws,dynamodb,postgres,sqlite,docker,flutter,dart,git,githubactions,linux&perline=12)](https://ashishkosana.com)
+[![My Skills](https://skillicons.dev/icons?i=python,typescript,fastapi,nextjs,react,aws,dynamodb,postgres,docker,git,githubactions,linux,flutter,dart&perline=14)](https://ashishkosana.com)
 
 **Backend:** REST API design · JWT / OAuth2 · hexagonal (ports & adapters) · SQLModel / SQLAlchemy · Stripe
 **Cloud:** AWS Lambda · DynamoDB · API Gateway · Cognito · CDK (IaC) · EventBridge · Secrets Manager
@@ -23,6 +23,7 @@
 
 | Project | What it is |
 |---|---|
+| **[Rythu](https://main.d3jtg3gae71asa.amplifyapp.com)** · [code](https://github.com/Ashishkosana/rythu) | **Live full-stack app** for Telangana farmers — Next.js/TypeScript frontend + Python/AWS serverless backend (Lambda · DynamoDB · API Gateway · CDK). Honest, explainable, Telugu-first. |
 | **[review-lens](https://github.com/Ashishkosana/review-lens)** | Automated code reviewer — runs an LLM across multiple lenses, then self-verifies each finding before flagging it (precision over recall). Python · CLI + GitHub Action · 80+ tests · eval harness. |
 | **[career-copilot](https://github.com/Ashishkosana/career-copilot)** | Live serverless job-search agent on AWS — CDK-defined (Lambda · DynamoDB · API Gateway · Cognito). Triages Gmail, scores jobs, drafts replies with an LLM. |
 | **[snip](https://github.com/Ashishkosana/snip)** | URL-shortener API from first principles — FastAPI + SQLModel, base62 codec, per-IP token-bucket rate limiting, Dockerized. |
