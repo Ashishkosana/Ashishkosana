@@ -45,6 +45,7 @@ _Auto-updated from my repos — newest first._
 
 | Project | What it is |
 |---|---|
+| **[resume-tailor](https://github.com/Ashishkosana/resume-tailor)** | Constraint-enforced resume tailoring that provably cannot fabricate — select/reorder/rephrase from a fact bank you wrote, verified before any PDF is written. <br>`Python` |
 | **[deref](https://github.com/Ashishkosana/deref)** | A Zachtronics-style DSA game: write real Python, an execution-trace engine runs it, robots walk and a power meter browns out on slow code. Python engine + Flutter client. <br>`Python` |
 | **[tick](https://github.com/Ashishkosana/tick)** | Durable job and cron scheduler on Postgres: SKIP LOCKED concurrent claiming, leases with crash recovery, retries with backoff, and a dead-letter state. <br>`Python` |
 | **[ledgerline](https://github.com/Ashishkosana/ledgerline)** | Exactly-once payments service (Python/FastAPI/Postgres): storage-layer idempotency, double-entry ledger, transactional outbox, and dead-letter queue. <br>`Python` |
