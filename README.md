@@ -2,7 +2,8 @@
 
 **Software Engineer — Backend & Full-Stack.** I build products end to end — REST APIs, auth, payments, and cloud infrastructure, backed by tests and CI — and I use LLMs as an engineering tool, not as a specialty.
 
-- 🔭 **Building:** [**Rythu**](https://main.d3jtg3gae71asa.amplifyapp.com) — a **live full-stack web app** (Next.js/TypeScript + Python/AWS serverless) · [review-lens](https://github.com/Ashishkosana/review-lens) — a self-verifying LLM code reviewer · [career-copilot](https://github.com/Ashishkosana/career-copilot) — a serverless job-search agent on AWS
+- 🔭 **Building:** [**Rythu**](https://main.d3jtg3gae71asa.amplifyapp.com) — a **live full-stack web app** (Next.js/TypeScript + Python/AWS serverless) · [ledgerline](https://github.com/Ashishkosana/ledgerline) — an **exactly-once payments service** on Postgres · [review-lens](https://github.com/Ashishkosana/review-lens) — a self-verifying LLM code reviewer
+- 🔀 **Open source:** merged an upstream feature into [**getmoto/moto**](https://github.com/getmoto/moto/pull/10162) — the standard AWS mocking library for Python (`get_tags` for API Gateway stages, PR #10162)
 - 🌱 **Now shipping with:** Next.js · TypeScript · React (see Rythu) + system design
 - 🌐 **Portfolio:** [ashishkosana.com](https://ashishkosana.com)  ·  📫 ashishkosana@gmail.com
 - 🎓 B.S. Computer Science, UMass Lowell (Dec 2025) · open to new-grad SWE / Backend / Full-Stack roles
@@ -24,10 +25,11 @@
 | Project | What it is |
 |---|---|
 | **[Rythu](https://main.d3jtg3gae71asa.amplifyapp.com)** · [code](https://github.com/Ashishkosana/rythu) | **Live full-stack app** for Telangana farmers — Next.js/TypeScript frontend + Python/AWS serverless backend (Lambda · DynamoDB · API Gateway · CDK). Honest, explainable, Telugu-first. |
+| **[ledgerline](https://github.com/Ashishkosana/ledgerline)** | **Exactly-once payments service** (Python · FastAPI · Postgres) — storage-layer idempotency, payment state machine, double-entry ledger, transactional outbox. Zero double-charges under 200 concurrent retries, ~1,460 payments/sec. 27 tests, mypy --strict. |
+| **[tick](https://github.com/Ashishkosana/tick)** | Durable job & cron scheduler on Postgres — `SELECT … FOR UPDATE SKIP LOCKED` claiming, leases with crash recovery, retries with backoff, dead-letter state. 500 jobs / 10 workers, exactly once. |
 | **[review-lens](https://github.com/Ashishkosana/review-lens)** | Automated code reviewer — runs an LLM across multiple lenses, then self-verifies each finding before flagging it (precision over recall). Python · CLI + GitHub Action · 80+ tests · eval harness. |
-| **[career-copilot](https://github.com/Ashishkosana/career-copilot)** | Live serverless job-search agent on AWS — CDK-defined (Lambda · DynamoDB · API Gateway · Cognito). Triages Gmail, scores jobs, drafts replies with an LLM. |
-| **[snip](https://github.com/Ashishkosana/snip)** | URL-shortener API from first principles — FastAPI + SQLModel, base62 codec, per-IP token-bucket rate limiting, Dockerized. |
-| **[fastapi-saas-api](https://github.com/Ashishkosana/fastapi-saas-api)** | Multi-tenant SaaS API — JWT auth, per-user isolation, Stripe subscription webhooks, Postgres, Docker. |
+| **[jobs-mcp](https://github.com/Ashishkosana/jobs-mcp)** | An MCP server I authored — gives any LLM client live access to US software-engineering jobs (Greenhouse/Lever/Ashby, concurrent fetch, US-only filter). MIT. |
+| **[askdocs-rag](https://github.com/Ashishkosana/askdocs-rag)** | RAG document Q&A with a real evaluation harness — retrieval scored by hit@k/MRR, answers by LLM-as-judge, abstains on unanswerable questions. |
 
 ---
 
