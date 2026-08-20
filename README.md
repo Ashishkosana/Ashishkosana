@@ -47,7 +47,7 @@ _Auto-updated from my repos — newest first._
 
 | Project | What it is |
 |---|---|
-| **[agent-hands](https://github.com/Ashishkosana/agent-hands)** | Record-once / replay-many computer-use automation: an LLM discovers a UI flow once; a typed capability artifact replays it deterministically with no model in the loop. <br>`Python` |
+| **[agent-hands](https://github.com/Ashishkosana/agent-hands)** | Record-once / replay-many computer-use automation: an LLM discovers a UI flow once; a typed capability artifact replays it deterministically with no model in the loop. <br>`Python · ⭐1` |
 | **[job-search-agents](https://github.com/Ashishkosana/job-search-agents)** | Job-search agents + a sourcing pipeline that only surfaces roles genuinely posted in the last few days — reads the employer's first-publish date (not the repost date), the real years bar from the JD body, and your own mailbox for duplicates. Human submits. <br>`Python` |
 | **[jobs-mcp](https://github.com/Ashishkosana/jobs-mcp)** | An MCP server that gives any LLM live access to US software-engineering jobs — Greenhouse/Lever/Ashby + community feed, US-only, clearance-filtered, no API keys. <br>`Python` |
 | **[resume-tailor](https://github.com/Ashishkosana/resume-tailor)** | Constraint-enforced resume tailoring that provably cannot fabricate — select/reorder/rephrase from a fact bank you wrote, verified before any PDF is written. <br>`Python` |
