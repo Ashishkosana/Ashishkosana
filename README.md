@@ -1,47 +1,53 @@
-# Hi, I'm Ashish Kosana 👋
+# Hi, I'm Ashish Kosana
 
-**Software Engineer — Backend & Full-Stack.** I build products end to end — REST APIs, auth, payments, and cloud infrastructure, backed by tests and CI — and I use LLMs as an engineering tool, not as a specialty.
+**Software Engineer — Backend, Full-Stack & Systems.** I ship end-to-end products: APIs, auth, payments, and AWS serverless — with tests, CI, and the boring reliability details that keep money and jobs from double-firing. LLMs are a tool in the loop, not the product identity.
 
-- 🔭 **Building:** [**Rythu**](https://main.d3jtg3gae71asa.amplifyapp.com) — a **live full-stack web app** (Next.js/TypeScript + Python/AWS serverless) · [ledgerline](https://github.com/Ashishkosana/ledgerline) — an **exactly-once payments service** on Postgres · [review-lens](https://github.com/Ashishkosana/review-lens) — a self-verifying LLM code reviewer
-- 🔀 **Open source:** merged an upstream feature into [**getmoto/moto**](https://github.com/getmoto/moto/pull/10162) — the standard AWS mocking library for Python (`get_tags` for API Gateway stages, PR #10162)
-- 🌱 **Now shipping with:** Next.js · TypeScript · React (see Rythu) + system design
-- 🌐 **Portfolio:** [ashishkosana.com](https://ashishkosana.com)  ·  📫 ashishkosana@gmail.com
-- 🎓 B.S. Computer Science, UMass Lowell (Dec 2025) · open to new-grad SWE / Backend / Full-Stack roles
-
----
-
-### 🛠️ Tech
-
-[![My Skills](https://skillicons.dev/icons?i=python,typescript,fastapi,nextjs,react,aws,dynamodb,postgres,docker,git,githubactions,linux,flutter,dart&perline=14)](https://ashishkosana.com)
-
-**Backend:** REST API design · JWT / OAuth2 · hexagonal (ports & adapters) · SQLModel / SQLAlchemy · Stripe
-**Cloud:** AWS Lambda · DynamoDB · API Gateway · Cognito · CDK (IaC) · EventBridge · Secrets Manager
-**Quality:** pytest · mypy --strict · ruff · GitHub Actions · security review (OWASP Top 10)
-
----
-
-### 🚀 Featured Projects
-
-| Project | What it is |
-|---|---|
-| **[Rythu](https://main.d3jtg3gae71asa.amplifyapp.com)** · [code](https://github.com/Ashishkosana/rythu) | **Live full-stack app** for Telangana farmers — Next.js/TypeScript frontend + Python/AWS serverless backend (Lambda · DynamoDB · API Gateway · CDK). Honest, explainable, Telugu-first. |
-| **[ledgerline](https://github.com/Ashishkosana/ledgerline)** | **Exactly-once payments service** (Python · FastAPI · Postgres) — storage-layer idempotency, payment state machine, double-entry ledger, transactional outbox. Zero double-charges under 200 concurrent retries, ~1,460 payments/sec. 27 tests, mypy --strict. |
-| **[tick](https://github.com/Ashishkosana/tick)** | Durable job & cron scheduler on Postgres — `SELECT … FOR UPDATE SKIP LOCKED` claiming, leases with crash recovery, retries with backoff, dead-letter state. 500 jobs / 10 workers, exactly once. |
-| **[review-lens](https://github.com/Ashishkosana/review-lens)** | Automated code reviewer — runs an LLM across multiple lenses, then self-verifies each finding before flagging it (precision over recall). Python · CLI + GitHub Action · 80+ tests · eval harness. |
-| **[jobs-mcp](https://github.com/Ashishkosana/jobs-mcp)** | An MCP server I authored — gives any LLM client live access to US software-engineering jobs (Greenhouse/Lever/Ashby, concurrent fetch, US-only filter). MIT. |
-| **[askdocs-rag](https://github.com/Ashishkosana/askdocs-rag)** | RAG document Q&A with a real evaluation harness — retrieval scored by hit@k/MRR, answers by LLM-as-judge, abstains on unanswerable questions. |
-
----
-
+[![Website](https://img.shields.io/badge/ashishkosana.com-111111?style=flat-square&logo=googlechrome&logoColor=white)](https://www.ashishkosana.com/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ashishkosana)
-[![Website](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=googlechrome&logoColor=white)](https://ashishkosana.com)
-[![Resume](https://img.shields.io/badge/Resume-4285F4?style=flat-square&logo=readdotcv&logoColor=white)](https://ashishkosana.com/resume.pdf)
+[![Resume](https://img.shields.io/badge/Resume-PDF-4285F4?style=flat-square&logo=adobeacrobatreader&logoColor=white)](https://www.ashishkosana.com/resume.pdf)
+[![GitHub](https://img.shields.io/badge/GitHub-Ashishkosana-181717?style=flat-square&logo=github)](https://github.com/Ashishkosana)
+
+- **Building:** [Rythu](https://main.d3jtg3gae71asa.amplifyapp.com) (live full-stack) · [ledgerline](https://github.com/Ashishkosana/ledgerline) (exactly-once payments) · [agent-hands](https://github.com/Ashishkosana/agent-hands) (record-once / replay-many computer use)
+- **Open source:** upstream feature in [getmoto/moto#10162](https://github.com/getmoto/moto/pull/10162) · recent review on [getmoto/moto#10234](https://github.com/getmoto/moto/pull/10234)
+- **Stack focus:** Python · TypeScript/Next.js · FastAPI · Postgres · AWS (Lambda, DynamoDB, API Gateway, CDK) · GitHub Actions
+- **Education:** B.S. Computer Science, UMass Lowell (Dec 2025) · open to new-grad SWE / Backend / Full-Stack
+- **Contact:** ashishkosana@gmail.com
+
+---
+
+### Tech
+
+[![Skills](https://skillicons.dev/icons?i=python,typescript,fastapi,nextjs,react,aws,dynamodb,postgres,docker,git,githubactions,linux,flutter,dart&perline=14)](https://www.ashishkosana.com/)
+
+| Area | What I actually use |
+| --- | --- |
+| **Backend** | REST · JWT/OAuth2 · hexagonal ports & adapters · SQLModel/SQLAlchemy · idempotency & outbox patterns |
+| **Cloud** | Lambda · DynamoDB · API Gateway · Cognito · CDK · EventBridge · Secrets Manager |
+| **Quality** | pytest · mypy --strict · ruff · GitHub Actions · Dependabot · branch-protected `main` |
+| **Product** | Flutter · Next.js · RAG eval harnesses · MCP servers |
+
+---
+
+### Featured work
+
+| Project | What it proves | Status |
+| --- | --- | --- |
+| **[Rythu](https://main.d3jtg3gae71asa.amplifyapp.com)** · [code](https://github.com/Ashishkosana/rythu) | Live full-stack for Telangana farmers — Next.js + Python/AWS serverless (Lambda · DynamoDB · API Gateway · CDK) | [![CI](https://github.com/Ashishkosana/rythu/actions/workflows/ci.yml/badge.svg)](https://github.com/Ashishkosana/rythu/actions) · [v0.1.0](https://github.com/Ashishkosana/rythu/releases/tag/v0.1.0) |
+| **[ledgerline](https://github.com/Ashishkosana/ledgerline)** | Exactly-once payments — storage-layer idempotency, double-entry ledger, transactional outbox, DLQ | [v0.1.0](https://github.com/Ashishkosana/ledgerline/releases/tag/v0.1.0) |
+| **[tick](https://github.com/Ashishkosana/tick)** | Durable Postgres job/cron scheduler — `SKIP LOCKED`, leases, retries, dead-letter | [v0.1.0](https://github.com/Ashishkosana/tick/releases/tag/v0.1.0) |
+| **[agent-hands](https://github.com/Ashishkosana/agent-hands)** | Record-once / replay-many computer-use — typed capability artifact, no model in the replay loop | [![CI](https://github.com/Ashishkosana/agent-hands/actions/workflows/ci.yml/badge.svg)](https://github.com/Ashishkosana/agent-hands/actions) · [v0.1.0](https://github.com/Ashishkosana/agent-hands/releases/tag/v0.1.0) |
+| **[review-lens](https://github.com/Ashishkosana/review-lens)** | Multi-lens LLM code review with adversarial self-verification (precision over recall) | [![CI](https://github.com/Ashishkosana/review-lens/actions/workflows/ci.yml/badge.svg)](https://github.com/Ashishkosana/review-lens/actions) · [v0.1.0](https://github.com/Ashishkosana/review-lens/releases/tag/v0.1.0) |
+| **[deref](https://github.com/Ashishkosana/deref)** | Zachtronics-style DSA game — real Python + execution-trace engine + Flutter client | [v0.1.0](https://github.com/Ashishkosana/deref/releases/tag/v0.1.0) |
+| **[askdocs-rag](https://github.com/Ashishkosana/askdocs-rag)** | Production RAG Q&A with retrieval + answer-quality evaluation harness | [![CI](https://github.com/Ashishkosana/askdocs-rag/actions/workflows/ci.yml/badge.svg)](https://github.com/Ashishkosana/askdocs-rag/actions) · [v0.1.0](https://github.com/Ashishkosana/askdocs-rag/releases/tag/v0.1.0) |
+| **[jobs-mcp](https://github.com/Ashishkosana/jobs-mcp)** | MCP server — live US SWE jobs from Greenhouse/Lever/Ashby (no API keys) | [v0.1.0](https://github.com/Ashishkosana/jobs-mcp/releases/tag/v0.1.0) |
+
+**How I work on GitHub:** MIT on public heroes · Dependabot · protected `main` · Releases · Actions CI on shipping repos · real upstream PRs and reviews — not just a dump of coursework.
 
 ---
 
 <!--PROJECTS:START-->
 
-### 📦 More Projects
+### More projects
 
 _Auto-updated from my repos — newest first._
 
@@ -54,7 +60,6 @@ _Auto-updated from my repos — newest first._
 | **[deref](https://github.com/Ashishkosana/deref)** | A Zachtronics-style DSA game: write real Python, an execution-trace engine runs it, robots walk and a power meter browns out on slow code. Python engine + Flutter client. <br>`Python` |
 | **[tick](https://github.com/Ashishkosana/tick)** | Durable job and cron scheduler on Postgres: SKIP LOCKED concurrent claiming, leases with crash recovery, retries with backoff, and a dead-letter state. <br>`Python` |
 | **[ledgerline](https://github.com/Ashishkosana/ledgerline)** | Exactly-once payments service (Python/FastAPI/Postgres): storage-layer idempotency, double-entry ledger, transactional outbox, and dead-letter queue. <br>`Python` |
-| **[sitepulse](https://github.com/Ashishkosana/sitepulse)** | Privacy-first web analytics: beacon to ingest to dashboard (FastAPI, deploys to Azure) <br>`Python` |
 | **[agent-bus](https://github.com/Ashishkosana/agent-bus)** | A file-based coordination bus for running many AI coding-agent (or CLI) sessions in parallel — atomic flock claims, two-way inboxes, rollup. No server. <br>`Python` |
 | **[askdocs-rag](https://github.com/Ashishkosana/askdocs-rag)** | Production RAG document Q&A with a retrieval + answer-quality evaluation harness (LLM, ChromaDB, FastAPI). <br>`Python` |
 | **[data-analyst-agent](https://github.com/Ashishkosana/data-analyst-agent)** | Agentic SQL data-analyst: an LLM uses read-only SQL tool-calls to explore a database and answer questions. <br>`Python` |
@@ -65,3 +70,9 @@ _Auto-updated from my repos — newest first._
 | **[retail-data-pipeline](https://github.com/Ashishkosana/retail-data-pipeline)** | Modern data-stack pipeline: synthetic data -> DuckDB -> dbt star schema + data-quality tests, with CI <br>`Python` |
 
 <!--PROJECTS:END-->
+
+---
+
+### Elsewhere
+
+[ashishkosana.com](https://www.ashishkosana.com/) · [LinkedIn](https://www.linkedin.com/in/ashishkosana) · [Resume (PDF)](https://www.ashishkosana.com/resume.pdf) · ashishkosana@gmail.com
