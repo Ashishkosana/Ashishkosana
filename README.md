@@ -53,6 +53,8 @@ _Auto-updated from my repos — newest first._
 
 | Project | What it is |
 |---|---|
+| **[OS-Data-Structures-Learning](https://github.com/Ashishkosana/OS-Data-Structures-Learning)** | Learn data structures by visually studying how they're actually used in a real OS (Linux kernel). Annotated code examples and explanations. <br>`Python` |
+| **[agent-hands](https://github.com/Ashishkosana/agent-hands)** | Record-once / replay-many computer-use automation: an LLM discovers a UI flow once; a typed capability artifact replays it deterministically with no model in the loop. <br>`Python · ⭐1` |
 | **[tick](https://github.com/Ashishkosana/tick)** | Durable job and cron scheduler on Postgres: SKIP LOCKED concurrent claiming, leases with crash recovery, retries with backoff, and a dead-letter state. <br>`Python` |
 | **[ledgerline](https://github.com/Ashishkosana/ledgerline)** | Exactly-once payments service (Python/FastAPI/Postgres): storage-layer idempotency, double-entry ledger, transactional outbox, and dead-letter queue. <br>`Python` |
 | **[event-worker-agent](https://github.com/Ashishkosana/event-worker-agent)** | Event-driven worker agent: queue claim → tool calls → DLQ + backoff. Portfolio scaffold (honest queue/worker signal). <br>`Python` |
@@ -62,7 +64,6 @@ _Auto-updated from my repos — newest first._
 | **[deref](https://github.com/Ashishkosana/deref)** | A Zachtronics-style DSA game: write real Python, an execution-trace engine runs it, robots walk and a power meter browns out on slow code. Python engine + Flutter client. <br>`Python` |
 | **[jobs-mcp](https://github.com/Ashishkosana/jobs-mcp)** | An MCP server that gives any LLM live access to US software-engineering jobs — Greenhouse/Lever/Ashby + community feed, US-only, clearance-filtered, no API keys. <br>`Python` |
 | **[askdocs-rag](https://github.com/Ashishkosana/askdocs-rag)** | Production RAG document Q&A with a retrieval + answer-quality evaluation harness (LLM, ChromaDB, FastAPI). <br>`Python` |
-| **[agent-hands](https://github.com/Ashishkosana/agent-hands)** | Record-once / replay-many computer-use automation: an LLM discovers a UI flow once; a typed capability artifact replays it deterministically with no model in the loop. <br>`Python · ⭐1` |
 | **[resume-tailor](https://github.com/Ashishkosana/resume-tailor)** | Constraint-enforced resume tailoring that provably cannot fabricate — select/reorder/rephrase from a fact bank you wrote, verified before any PDF is written. <br>`Python` |
 | **[job-search-agents](https://github.com/Ashishkosana/job-search-agents)** | Job-search agents + a sourcing pipeline that only surfaces roles genuinely posted in the last few days — reads the employer's first-publish date (not the repost date), the real years bar from the JD body, and your own mailbox for duplicates. Human submits. <br>`Python` |
 | **[agent-bus](https://github.com/Ashishkosana/agent-bus)** | A file-based coordination bus for running many AI coding-agent (or CLI) sessions in parallel — atomic flock claims, two-way inboxes, rollup. No server. <br>`Python` |
