@@ -53,14 +53,14 @@ _Auto-updated from my repos — newest first._
 
 | Project | What it is |
 |---|---|
+| **[vendor-orchestrator](https://github.com/Ashishkosana/vendor-orchestrator)** | Vendor orchestration agent: FastAPI case service → mock vendors → retries/idempotency → Postgres case state → eval harness (portfolio; honest mock metrics only) <br>`Python` |
+| **[ops-agent](https://github.com/Ashishkosana/ops-agent)** | Multi-tool coding/ops agent with hard evals: planner → tools → verifier → scorecard (CLI + GitHub Action). Portfolio scaffold. <br>`Python` |
+| **[ide-pair-agent](https://github.com/Ashishkosana/ide-pair-agent)** | Flagship: VS Code extension + local pair agent that relays editor context to a desktop assistant (Grok Bot) via webhook/mailbox — honest portfolio, YOU IMPLEMENT on the agent loop <br>`Python` |
+| **[event-worker-agent](https://github.com/Ashishkosana/event-worker-agent)** | Event-driven worker agent: queue claim → tool calls → DLQ + backoff. Portfolio scaffold (honest queue/worker signal). <br>`Python` |
 | **[OS-Data-Structures-Learning](https://github.com/Ashishkosana/OS-Data-Structures-Learning)** | Learn data structures by visually studying how they're actually used in a real OS (Linux kernel). Annotated code examples and explanations. <br>`Python` |
 | **[agent-hands](https://github.com/Ashishkosana/agent-hands)** | Record-once / replay-many computer-use automation: an LLM discovers a UI flow once; a typed capability artifact replays it deterministically with no model in the loop. <br>`Python · ⭐1` |
 | **[tick](https://github.com/Ashishkosana/tick)** | Durable job and cron scheduler on Postgres: SKIP LOCKED concurrent claiming, leases with crash recovery, retries with backoff, and a dead-letter state. <br>`Python` |
 | **[ledgerline](https://github.com/Ashishkosana/ledgerline)** | Exactly-once payments service (Python/FastAPI/Postgres): storage-layer idempotency, double-entry ledger, transactional outbox, and dead-letter queue. <br>`Python` |
-| **[event-worker-agent](https://github.com/Ashishkosana/event-worker-agent)** | Event-driven worker agent: queue claim → tool calls → DLQ + backoff. Portfolio scaffold (honest queue/worker signal). <br>`Python` |
-| **[ide-pair-agent](https://github.com/Ashishkosana/ide-pair-agent)** | Flagship: VS Code extension + local pair agent that relays editor context to a desktop assistant (Grok Bot) via webhook/mailbox — honest portfolio, YOU IMPLEMENT on the agent loop <br>`Python` |
-| **[ops-agent](https://github.com/Ashishkosana/ops-agent)** | Multi-tool coding/ops agent with hard evals: planner → tools → verifier → scorecard (CLI + GitHub Action). Portfolio scaffold. <br>`Python` |
-| **[vendor-orchestrator](https://github.com/Ashishkosana/vendor-orchestrator)** | Vendor orchestration agent: FastAPI case service → mock vendors → retries/idempotency → Postgres case state → eval harness (portfolio; honest mock metrics only) <br>`Python` |
 | **[deref](https://github.com/Ashishkosana/deref)** | A Zachtronics-style DSA game: write real Python, an execution-trace engine runs it, robots walk and a power meter browns out on slow code. Python engine + Flutter client. <br>`Python` |
 | **[jobs-mcp](https://github.com/Ashishkosana/jobs-mcp)** | An MCP server that gives any LLM live access to US software-engineering jobs — Greenhouse/Lever/Ashby + community feed, US-only, clearance-filtered, no API keys. <br>`Python` |
 | **[askdocs-rag](https://github.com/Ashishkosana/askdocs-rag)** | Production RAG document Q&A with a retrieval + answer-quality evaluation harness (LLM, ChromaDB, FastAPI). <br>`Python` |
