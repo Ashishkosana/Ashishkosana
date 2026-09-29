@@ -2,7 +2,7 @@
 
 # Hi, I'm Ashish Kosana
 
-**Software Engineer** focused on backend, distributed systems, and full-stack product engineering.
+**Backend & Distributed Systems · Applied AI.** Seeking software engineer roles. Authorized to work in the U.S. on F-1 OPT — STEM, ~3 years, no sponsorship needed to start.
 
 I build APIs, PostgreSQL-backed workers, and event pipelines that stay correct under retries, crashes, and concurrent claimants. When a model is in the loop, I put policy, metering, and evaluation in front of it — not a chat wrapper.
 
@@ -11,28 +11,28 @@ I build APIs, PostgreSQL-backed workers, and event pipelines that stay correct u
 [![Resume](https://img.shields.io/badge/Resume-PDF-4285F4?style=flat-square&logo=adobeacrobatreader&logoColor=white)](https://www.ashishkosana.com/resume.pdf)
 
 - **Now:** Software Engineer Intern at Crewtron / Augment AI Labs (Flutter client + AWS serverless backend)
-- **Shipped:** [Rythu](https://github.com/Ashishkosana/rythu) — Telugu-first weather and crop advisory (Next.js + Python on AWS)
+- **Flagship:** [autonomous-agent](https://github.com/Ashishkosana/autonomous-agent) · [agent-hands](https://github.com/Ashishkosana/agent-hands)
+- **Live:** [Ask Ashish](https://www.ashishkosana.com/) on ashishkosana.com · [jobs.ashishkosana.com](https://jobs.ashishkosana.com)
 - **Open source:** merged [`get_tags` for API Gateway stages](https://github.com/getmoto/moto/pull/10162) in [moto](https://github.com/getmoto/moto)
 - **Stack:** Python · FastAPI · PostgreSQL · TypeScript/Next.js · AWS (Lambda, DynamoDB, API Gateway, CDK)
 - **Education:** B.S. Computer Science, UMass Lowell (Dec 2025)
-- **Seeking:** Software Engineer / SDE roles — backend, systems, full-stack
 
 ---
 
 ## Featured engineering work
 
-Six projects. Different problems. What the code actually does:
+[autonomous-agent](https://github.com/Ashishkosana/autonomous-agent) and [agent-hands](https://github.com/Ashishkosana/agent-hands) first. [platform-forge](https://github.com/Ashishkosana/platform-forge), [realtime-event-platform](https://github.com/Ashishkosana/realtime-event-platform), and [ai-reliability-control-plane](https://github.com/Ashishkosana/ai-reliability-control-plane) include failure drills (crash, poison, races) and architecture notes.
 
 | Project | Engineering focus |
 | --- | --- |
-| **[platform-forge](https://github.com/Ashishkosana/platform-forge)** | Durable linear workflows on PostgreSQL. Workers claim steps with `FOR UPDATE SKIP LOCKED`, heartbeat a lease, and a fencing token rejects zombie commits. Retries use full jitter, then dead-letter. **At-least-once** steps; idempotent side effects only if the handler uses the key. |
-| **[realtime-event-platform](https://github.com/Ashishkosana/realtime-event-platform)** | Persist-first notifications. Idempotent ingest, transactional fan-out into a per-user inbox (chunked when the recipient list is large), SSE catch-up by cursor, **at-least-once** webhooks with leases, backoff, dead-letter, and HMAC signatures. The event id is the consumer’s idempotency token. |
-| **[ai-reliability-control-plane](https://github.com/Ashishkosana/ai-reliability-control-plane)** | A `complete()` control plane, not a chatbot. Atomic SQL tenant budgets, kill switch, fail-closed if the store is down, one retry then fallback (timeouts do not fall back), immutable prompt versions, promote blocked unless a golden eval passes. V1 uses a fake provider so the policy path is testable. |
-| **[Rythu](https://github.com/Ashishkosana/rythu)** | Shipped product: Telugu-first weather + crop-advisory PWA. Next.js on Amplify, hexagonal Python Lambda, DynamoDB TTL forecast cache, CDK. Weather is the live backend; crops, fertilizer calc, and schemes ship as client data. |
-| **[ledgerline](https://github.com/Ashishkosana/ledgerline)** | Payments that stay consistent under retry. UNIQUE idempotency key (concurrent duplicates create one payment), payment state machine, double-entry ledger, transactional outbox, consumer inbox dedup, then DLQ. Not a global exactly-once bus — storage uniqueness plus outbox/inbox. |
-| **[review-lens](https://github.com/Ashishkosana/review-lens)** | LLM code review across correctness, security, performance, and tests, then a refutation pass against the actual diff. Eval harness for precision/recall; GitHub Action posts comments. Suggests; never auto-applies. |
+| **[autonomous-agent](https://github.com/Ashishkosana/autonomous-agent)** | One high-level goal. Plans and acts inside an isolated Linux sandbox, checks the result against mechanical criteria, and can retrieve those records on a later run. Model weights stay fixed. |
+| **[agent-hands](https://github.com/Ashishkosana/agent-hands)** | Record once, replay many. A model discovers a UI flow once; a typed capability artifact replays it with no model in the loop. An unobservable consequential outcome ends as `UNRESOLVED`. |
+| **[platform-forge](https://github.com/Ashishkosana/platform-forge)** | Durable linear workflows on PostgreSQL. Workers claim steps with `FOR UPDATE SKIP LOCKED`, heartbeat a lease, and a fencing token rejects zombie commits. Retries use full jitter, then dead-letter. |
+| **[realtime-event-platform](https://github.com/Ashishkosana/realtime-event-platform)** | Persist-first notifications. Idempotent ingest, transactional fan-out into a per-user inbox, SSE catch-up by cursor, at-least-once webhooks with leases, backoff, dead-letter, and HMAC signatures. |
+| **[ai-reliability-control-plane](https://github.com/Ashishkosana/ai-reliability-control-plane)** | A `complete()` control plane. Atomic SQL tenant budgets, kill switch, fail-closed if the store is down, one retry then fallback, immutable prompt versions, promote blocked unless a golden eval passes. |
+| **[ledgerline](https://github.com/Ashishkosana/ledgerline)** | Payments that stay consistent under retry. UNIQUE idempotency key, payment state machine, double-entry ledger, transactional outbox, consumer inbox dedup, then DLQ. |
 
-The three systems repos include failure drills (crash, poison, races) and architecture notes. Click those first in an interview.
+**Also:** [Rythu](https://github.com/Ashishkosana/rythu) — Telugu-first weather and crop advisory (Next.js + Python on AWS) · [review-lens](https://github.com/Ashishkosana/review-lens) — LLM review, then a refutation pass against the diff. Suggests; never auto-applies.
 
 ---
 
