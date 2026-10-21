@@ -10,8 +10,8 @@ I build APIs, PostgreSQL-backed workers, and event pipelines that stay correct u
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ashishkosana)
 [![Resume](https://img.shields.io/badge/Resume-PDF-4285F4?style=flat-square&logo=adobeacrobatreader&logoColor=white)](https://www.ashishkosana.com/resume.pdf)
 
-- **Now:** Software Engineer Intern at Crewtron / Augment AI Labs (Flutter client + AWS serverless backend)
-- **Flagship:** [autonomous-agent](https://github.com/Ashishkosana/autonomous-agent) · [agent-hands](https://github.com/Ashishkosana/agent-hands)
+- **Now:** Software Engineer, Backend at Crewtron / Augment AI Labs — Python + AWS serverless APIs for a field-service platform (converted from intern, Sep 2026)
+- **Flagship:** [career-copilot](https://github.com/Ashishkosana/career-copilot) (910 tests) · [autonomous-agent](https://github.com/Ashishkosana/autonomous-agent) (428 tests) · [agent-hands](https://github.com/Ashishkosana/agent-hands) (187 tests)
 - **Live:** [Ask Ashish](https://www.ashishkosana.com/) on ashishkosana.com · [jobs.ashishkosana.com](https://jobs.ashishkosana.com)
 - **Open source:** merged [`get_tags` for API Gateway stages](https://github.com/getmoto/moto/pull/10162) in [moto](https://github.com/getmoto/moto)
 - **Stack:** Python · FastAPI · PostgreSQL · TypeScript/Next.js · AWS (Lambda, DynamoDB, API Gateway, CDK)
@@ -21,15 +21,17 @@ I build APIs, PostgreSQL-backed workers, and event pipelines that stay correct u
 
 ## Featured engineering work
 
-[autonomous-agent](https://github.com/Ashishkosana/autonomous-agent) and [agent-hands](https://github.com/Ashishkosana/agent-hands) first. [platform-forge](https://github.com/Ashishkosana/platform-forge), [realtime-event-platform](https://github.com/Ashishkosana/realtime-event-platform), and [ai-reliability-control-plane](https://github.com/Ashishkosana/ai-reliability-control-plane) include failure drills (crash, poison, races) and architecture notes.
+[career-copilot](https://github.com/Ashishkosana/career-copilot), [autonomous-agent](https://github.com/Ashishkosana/autonomous-agent), and [agent-hands](https://github.com/Ashishkosana/agent-hands) first — each with a real commit history and a CI test count you can click. Below those, [ledgerline](https://github.com/Ashishkosana/ledgerline), [tick](https://github.com/Ashishkosana/tick), and the systems studies are focused single-concern builds with failure drills (crash, poison, races) and architecture notes.
 
 | Project | Engineering focus |
 | --- | --- |
+| **[career-copilot](https://github.com/Ashishkosana/career-copilot)** | A job search that runs itself. Sweeps 5 public ATS APIs across an 800+ company watchlist, gates roles pass/fail on eligibility before anything is scored, and drafts Gmail replies that are never auto-sent. Hexagonal Python on Lambda/DynamoDB/CDK; 910 tests behind `ruff` + `mypy --strict` + `cdk synth`. |
 | **[autonomous-agent](https://github.com/Ashishkosana/autonomous-agent)** | One high-level goal. Plans and acts inside an isolated Linux sandbox, checks the result against mechanical criteria, and can retrieve those records on a later run. Model weights stay fixed. |
 | **[agent-hands](https://github.com/Ashishkosana/agent-hands)** | Record once, replay many. A model discovers a UI flow once; a typed capability artifact replays it with no model in the loop. An unobservable consequential outcome ends as `UNRESOLVED`. |
 | **[platform-forge](https://github.com/Ashishkosana/platform-forge)** | Durable linear workflows on PostgreSQL. Workers claim steps with `FOR UPDATE SKIP LOCKED`, heartbeat a lease, and a fencing token rejects zombie commits. Retries use full jitter, then dead-letter. |
 | **[realtime-event-platform](https://github.com/Ashishkosana/realtime-event-platform)** | Persist-first notifications. Idempotent ingest, transactional fan-out into a per-user inbox, SSE catch-up by cursor, at-least-once webhooks with leases, backoff, dead-letter, and HMAC signatures. |
 | **[ai-reliability-control-plane](https://github.com/Ashishkosana/ai-reliability-control-plane)** | A `complete()` control plane. Atomic SQL tenant budgets, kill switch, fail-closed if the store is down, one retry then fallback, immutable prompt versions, promote blocked unless a golden eval passes. |
+| **[askdocs-rag](https://github.com/Ashishkosana/askdocs-rag)** | RAG with the evaluation attached. hit@k and MRR for retrieval, LLM-as-judge for faithfulness, and abstention when the documents do not support an answer. Per-answer token, latency, and cost reporting. |
 | **[ledgerline](https://github.com/Ashishkosana/ledgerline)** | Payments that stay consistent under retry. UNIQUE idempotency key, payment state machine, double-entry ledger, transactional outbox, consumer inbox dedup, then DLQ. |
 
 **Also:** [Rythu](https://github.com/Ashishkosana/rythu) — Telugu-first weather and crop advisory (Next.js + Python on AWS) · [review-lens](https://github.com/Ashishkosana/review-lens) — LLM review, then a refutation pass against the diff. Suggests; never auto-applies.
