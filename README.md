@@ -2,7 +2,7 @@
 
 # Hi, I'm Ashish Kosana
 
-**Backend & Distributed Systems · Applied AI.** Seeking software engineer roles. Authorized to work in the U.S. on F-1 OPT — STEM, ~3 years, no sponsorship needed to start.
+**Backend & Distributed Systems · Applied AI.** Seeking software engineer roles. Authorized to work in the U.S. on F-1 STEM OPT. Open to AI engineering, agent, and backend roles.
 
 I build APIs, PostgreSQL-backed workers, and event pipelines that stay correct under retries, crashes, and concurrent claimants. When a model is in the loop, I put policy, metering, and evaluation in front of it — not a chat wrapper.
 
